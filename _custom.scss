@@ -1,0 +1,15 @@
+@import'media';
+.container{
+    width: 1200px;
+    margin: auto;
+    overflow: hidden;
+    @include rs-xs{
+        width: 98%;
+    }
+    @include rs-sm{
+        max-width: 1200px;
+    }
+}
+img{
+    max-width: 100%;
+}

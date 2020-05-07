@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;//25% đó đã tính border
+}
+ul,ol{
+    list-style: none;
+}
+a{
+    //bỏ gạch chân
+    text-decoration: none;
+    
+}
+input{
+    background: none;
+    border: none;
+    outline: none;
+}
+button{
+    background: none;
+    border: none;
+    box-shadow: none;
+    outline: none;
+}
