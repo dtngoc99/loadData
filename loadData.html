@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./dist/css/loadData.min.css">
+    <link rel="stylesheet" href="./dist/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <title>Load Data</title>
+</head>
+
+<body>
+    <div id="category">
+        <div class="container">
+            <div class="filter-category">
+                <ul class="flex">
+                    <li>
+                        <a data-category="all" class="active" href="">All</a>
+                    </li>
+                    <li>
+                        <a data-category="business" href="">Business</a>
+                    </li>
+                    <li>
+                        <a data-category="management" href="">Management</a>
+                    </li>
+                    <li>
+                        <a data-category="languages" href="">Languages</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="filter-price">
+                <select name="price" id="filter-price">
+                    <option value="">---</option>
+                    <option value="300"> >=300</option>
+                    <option value="400"> >=400</option>
+                    <option value="500"> >=500</option>
+                </select>
+            </div>
+            <div class="content-category">
+                <div class="row">
+
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+<script src="./dist/js/data.js"></script>
+
+</html>
